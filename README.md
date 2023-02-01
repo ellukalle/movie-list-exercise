@@ -1,6 +1,6 @@
 # Movie List Uppgift
 
-Designa en webbsidan som effektivt hämtar och presenterar filmdata från en API endpoint. Webbsidan skall inkludera verktyg för att filtrera filmer enligt användarens önskemål. Det skall också gå att klicka på en rad för en viss film, vilket öppnar en ny sida med en bild och mera information om just den filmen.
+Designa en webbsidan som effektivt hämtar och presenterar filmdata från en API endpoint. Webbsidan skall inkludera verktyg för att filtrera filmer enligt användarens önskemål. Det skall också gå att välja en viss film, en skild sida, som visar end bild och mera information om just den filmen.
 
 ## Uppgift
 
