@@ -78,6 +78,6 @@ Denna sida skall du också planera och designa i t.ex. Figma.
 
 | Vitsord     | Krav                                              |
 |-------------|---------------------------------------------------|
-| Nöjaktiga-1 | Du skall klara av **Del 1** med lite handledning. |
-| Goda-3      | Du skall klara av **Del 1** och ett av filtreringsalternativen i **Del 2**. |
-| Berömliga-5 | Du skall på ett professionellt sätt planera och utföra **Del 1**, **Del 2** och **Del 3**. Du skall även planera och ge förslag på hur man skulle kunna vidareutveckla detta projekt. | 
+| Nöjaktiga&nbsp;1 | Du skall klara av **Del 1** med lite handledning. |
+| Goda&nbsp;3      | Du skall klara av **Del 1** och ett av filtreringsalternativen i **Del 2**. |
+| Berömliga&nbsp;5 | Du skall på ett professionellt sätt planera och utföra **Del 1**, **Del 2** och **Del 3**. Du skall även planera och ge förslag på hur man skulle kunna vidareutveckla detta projekt. | 
