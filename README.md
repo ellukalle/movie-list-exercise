@@ -1,6 +1,6 @@
 # Movie List Uppgift
 
-Designa en webbsidan som effektivt hämtar och presenterar filmdata från en API endpoint. Webbsidan skall inkludera verktyg för att filtrera filmer enligt användarens önskemål. Det skall också gå att välja en viss film, en skild sida, som visar end bild och mera information om just den filmen.
+Designa en webbsida som effektivt hämtar och presenterar filmdata från en API endpoint. Webbsidan skall inkludera verktyg för att filtrera filmer enligt användarens önskemål. Det skall också gå att välja en viss film, en skild sida, som visar end bild och mera information om just den filmen.
 
 ## Uppgift
 
@@ -53,7 +53,7 @@ Det skall gå att använda flera filter samtidigt, det skall t.ex. gå att filtr
 
 ### Del 3
 
-Implementera routen `/movie/:id` som visar sidan `movie.html`. Denna sida skall hämta information och visa följande information om en vald film:
+Gör så att det går att klicka på raderna för filmerna i tabellen på sidan `index.html`. När man klickar på en rad skall webbsidan öppna routen `/movies/:id` där `:id` är id för den film man klickade på. Implementera routen `/movies/:id` som visar sidan `movies-id.html`. Denna sida skall hämta information och visa följande information om en vald film:
 
 * Bild
 * Titel
@@ -78,6 +78,6 @@ Denna sida skall du också planera och designa i t.ex. Figma.
 
 | Vitsord     | Krav                                              |
 |-------------|---------------------------------------------------|
-| Nöjaktiga 1 | Du skall klara av **Del 1** med lite handledning. |
-| Goda 3      | Du skall klara av **Del 1** och en av filtreringsalternativen i **Del 2**. |
-| Berömliga 5 | Du skall på ett professionellt sätt planera och utföra **Del 1**, **Del 2** och **Del 3**. Du skall även planera och ge förslag på hur man skulle kunna vidareutveckla detta projekt. | 
+| Nöjaktiga-1 | Du skall klara av **Del 1** med lite handledning. |
+| Goda-3      | Du skall klara av **Del 1** och ett av filtreringsalternativen i **Del 2**. |
+| Berömliga-5 | Du skall på ett professionellt sätt planera och utföra **Del 1**, **Del 2** och **Del 3**. Du skall även planera och ge förslag på hur man skulle kunna vidareutveckla detta projekt. | 
