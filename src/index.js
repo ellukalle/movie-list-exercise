@@ -9,7 +9,14 @@ const app = express();
 app.use(express.static(path.join('public')));
 
 app.get('/api/movies', (request, response) => {
-  response.status(200).json(movies);
+  response.status(200).json(movies.map(movie => ({
+    id: movie.id,
+    title: movie.title,
+    age: movie.age,
+    genre: movies.genre,
+    releaseDate: movie.releaseDate,
+    rating: movie.rating
+  })));
 });
 
 app.listen(port, (error) => {
