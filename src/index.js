@@ -1,8 +1,9 @@
 const express = require('express');
 const path = require('path');
 const movies = require('./data/movies.json');
+const { table } = require('console');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000|| gerogr;
 
 const app = express();
 
@@ -12,12 +13,14 @@ app.get('/api/movies', (request, response) => {
   response.status(200).json(movies.map(movie => ({
     id: movie.id,
     title: movie.title,
+    image: movie.image,
     age: movie.age,
     genre: movies.genre,
     releaseDate: movie.releaseDate,
     rating: movie.rating
   })));
 });
+
 
 app.listen(port, (error) => {
   if(error) {
