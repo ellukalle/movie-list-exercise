@@ -15,7 +15,7 @@ app.get('/api/movies', (request, response) => {
     title: movie.title,
     image: movie.image,
     age: movie.age,
-    genre: movies.genre,
+    genres: movie.genres,
     releaseDate: movie.releaseDate,
     rating: movie.rating
   })));
